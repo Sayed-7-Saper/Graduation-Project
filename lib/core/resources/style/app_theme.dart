@@ -7,6 +7,7 @@ class AppTheme{
 
   ThemeData lightTheme()=>ThemeData(
     backgroundColor: Colors.white,
+    fontFamily:"Generator",
     scaffoldBackgroundColor: AppColors.primaryColor,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,

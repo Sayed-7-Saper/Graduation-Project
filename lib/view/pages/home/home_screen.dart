@@ -48,13 +48,16 @@ class HomeScreen extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                'الأقسام',
-                style: TextStyle(
-                  fontFamily: fontFamily,
-                  fontSize: 22.sp,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.black,
+              Padding(
+                padding:  EdgeInsets.only(right: .05.sw),
+                child: Text(
+                  'الأقسام',
+                  style: TextStyle(
+                    fontFamily: fontFamily,
+                    fontSize: 22.sp,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.black,
+                  ),
                 ),
               ),
               SizedBox(
@@ -69,13 +72,16 @@ class HomeScreen extends StatelessWidget {
               ),
 
               SizedBox(height: 20.h,),
-              Text(
-                'القائمة',
-                style: TextStyle(
-                  fontFamily: fontFamily,
-                  fontSize: 22.sp,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.black,
+              Padding(
+                padding:  EdgeInsets.only(right: .05.sw),
+                child: Text(
+                  'القائمة',
+                  style: TextStyle(
+                    fontFamily: fontFamily,
+                    fontSize: 22.sp,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.black,
+                  ),
                 ),
               ), 
               Expanded(

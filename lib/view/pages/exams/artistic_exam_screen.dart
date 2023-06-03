@@ -122,6 +122,7 @@ class ArtisticExamScreen extends StatelessWidget {
                     suffixIcon: Icons.upload_rounded,
                     function: (){
                       AppCubit.get(context).pickArtisticExamImage(context);
+
                     },
                   ),
                 ),

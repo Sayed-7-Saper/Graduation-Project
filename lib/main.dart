@@ -1,4 +1,5 @@
 
+import 'package:artech/core/resources/constants.dart';
 import 'package:artech/view/pages/splash_screen.dart';
 import 'package:artech/view_model/blocs/app_cubit/cubit.dart';
 import 'package:flutter/material.dart';
@@ -29,14 +30,24 @@ class MyApp extends StatelessWidget {
         return BlocProvider(
           create: (context)=>AppCubit(),
           child: MaterialApp(
-
-            supportedLocales: const [Locale('en'), Locale('ar')],
+            debugShowCheckedModeBanner: false,
+            localizationsDelegates: [
+              GlobalCupertinoLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+            ],
+            supportedLocales: [
+              Locale("ar"),
+            ],
+            locale: Locale("ar"),
+            title: 'Flutter Demo',
+           /* supportedLocales: const [Locale('en'), Locale('ar')],
             localizationsDelegates: const [
               AppLocalizations.delegate,
               GlobalMaterialLocalizations.delegate,
               GlobalWidgetsLocalizations.delegate,
               GlobalCupertinoLocalizations.delegate
-            ],
+            ],*/
             localeResolutionCallback: (deviceLocale, supportedLocales) {
               for (var locale in supportedLocales) {
                 if (deviceLocale != null &&
@@ -48,8 +59,11 @@ class MyApp extends StatelessWidget {
               return supportedLocales.first;
             },
 
-            theme: appTheme.lightTheme(),
-            debugShowCheckedModeBanner: false,
+            theme: appTheme.lightTheme(
+             //
+            ),
+           // debugShowCheckedModeBanner: false,
+
             home: child,
           ),
         );

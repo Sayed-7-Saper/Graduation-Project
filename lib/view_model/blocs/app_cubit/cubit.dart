@@ -25,18 +25,19 @@ class AppCubit extends Cubit<AppStates>{
   static AppCubit get(context)=>BlocProvider.of(context);
 
   List<BottomNavigationBarItem> bottomNavBarItems=[
-    BottomNavigationBarItem(icon: Icon(Icons.home_rounded),label: ''),
-    BottomNavigationBarItem(icon: Icon(Icons.email_rounded),label: ''),
     BottomNavigationBarItem(icon: Icon(Icons.person),label: ''),
+    BottomNavigationBarItem(icon: Icon(Icons.email_rounded),label: ''),
+    BottomNavigationBarItem(icon: Icon(Icons.home_rounded),label: ''),
+
   ];
 
   List<Widget> screens=[
-    HomeScreen(),
-    NotificationsScreen(),
     ProfileScreen(),
+    NotificationsScreen(),
+    HomeScreen(),
   ];
 
-  int currentIndex=0;
+  int currentIndex=2;
   void changeBottomNavBarIndex(int index){
     currentIndex=index;
     emit(AppChangeBottomNavBarIndexState());
@@ -189,7 +190,9 @@ class AppCubit extends Cubit<AppStates>{
   var picker = ImagePicker();
   void pickArtisticExamImage(context) async {
     final pickedFile = await picker.pickImage(
-      source: ImageSource.gallery,
+      //source: ImageSource.gallery,
+      source: ImageSource.camera,
+
     );
 
     if (pickedFile != null) {
