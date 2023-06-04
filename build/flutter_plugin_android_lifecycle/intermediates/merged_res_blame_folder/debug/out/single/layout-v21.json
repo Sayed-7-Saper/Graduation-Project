@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/flutter_plugin_android_lifecycle/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
