@@ -47,11 +47,13 @@ class AppCubit extends Cubit<AppStates>{
 
 
   List<CollegeModel> departments=[
-    CollegeModel(image: '$imagePath/images/offer3.jpg', name: 'قسم النحت'),
+    CollegeModel(image: '$imagePath/images/nnn.png', name: 'قسم النحت'),
     CollegeModel(image: '$imagePath/images/offer3.jpg', name: 'قسم الديكور'),
-    CollegeModel(image: '$imagePath/images/offer3.jpg', name: 'قسم العمارة'),
-    CollegeModel(image: '$imagePath/images/offer3.jpg', name: 'قسم التصوير'),
-    CollegeModel(image: '$imagePath/images/offer3.jpg', name: 'قسم الجرافيك'),
+    CollegeModel(image: '$imagePath/images/offer.png', name: 'قسم التصوير'),
+    CollegeModel(image: '$imagePath/images/mmm.png', name: 'قسم العمارة'),
+    CollegeModel(image: '$imagePath/images/ff.png', name: 'قسم الجرافيك'),
+
+
   ];
 
 

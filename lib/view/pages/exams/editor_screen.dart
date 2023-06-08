@@ -150,6 +150,7 @@ class _EditorScreenState extends State<EditorScreen> {
         initialPaintMode: PaintMode.line,
       ),
     );
+    ////////////////////////////////////////////////////////////////
     // return Scaffold(
     //   resizeToAvoidBottomInset: false,
     //   backgroundColor: Colors.grey,
@@ -199,6 +200,8 @@ class _EditorScreenState extends State<EditorScreen> {
     //   //   showDefaultTools: true,
     //   // ),
     // );
+
+    /////////////////////////////////////////////////////////////////
   }
 }
 
