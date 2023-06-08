@@ -60,13 +60,13 @@ class RegisterScreen extends  StatelessWidget {
                           children: [
                             Text(
                               'انشاء حساب',
-                              style: TextStyle(
+                               style: TextStyle(
                                 fontSize: 30.sp,
                                 color: Colors.white,
                                 fontFamily: fontFamily,
                               ),
                             ),
-                            SizedBox(height: 24.0.h,),
+                            SizedBox(height: 15.0.h,),
 
                             DefaultTextFormField(
                               context: context,
@@ -84,7 +84,24 @@ class RegisterScreen extends  StatelessWidget {
                               text: 'اسم الطالب',
                             ),
 
-                            SizedBox(height: 20.h,),
+                            SizedBox(height: 10.h,),
+                            DefaultTextFormField(
+                              context: context,
+                              //inputType:TextInputType.name,
+                              controller: nameController,
+                              hintColor: Colors.grey,
+                              inputType: TextInputType.text,
+                              verticalPadding: verticalPaddingOfAuthenticationTFF,
+                              horizontalPadding: horizontalPaddingOfAuthenticationTFF,
+                              color: Colors.white,
+                              validator: (value){
+                                if(value!.isEmpty) return 'ادخل اسم المستحدم';
+                                return null;
+                              },
+                              text: 'اسم المستخدم',
+                            ),
+                            SizedBox(height: 10.h,),
+
                             DefaultTextFormField(
                               context: context,
                               inputType: TextInputType.emailAddress,
@@ -102,7 +119,7 @@ class RegisterScreen extends  StatelessWidget {
                               text:  'البريد الإلكتروني ',
                             ),
 
-                            SizedBox(height: 20.h,),
+                            SizedBox(height: 10.h,),
                             DefaultTextFormField(
                               context: context,
                               inputType: TextInputType.visiblePassword,
@@ -120,7 +137,7 @@ class RegisterScreen extends  StatelessWidget {
                               text: 'كلمة المرور',
                             ),
 
-                            SizedBox(height: 20.h,),
+                            SizedBox(height: 10.h,),
                             DefaultTextFormField(
                               context: context,
                               inputType: TextInputType.visiblePassword,
@@ -138,7 +155,7 @@ class RegisterScreen extends  StatelessWidget {
                               text: 'تأكيد كلمة المرور',
                             ),
 
-                            SizedBox(height: 30.0.h,),
+                            SizedBox(height: 25.0.h,),
 
 
                             customButton(
@@ -146,11 +163,16 @@ class RegisterScreen extends  StatelessWidget {
                               color: Colors.white,
                               elevation: 0.1,
                               fontSize: 17,
-                              textColor: Colors.black,
+                              textColor: Color(0xFF0F3447),//Colors.black,
                               height: getHeight(53, context),
+                              width: 100,
                               radius: 10,
                               function: (){
-                                navigateTo(context, OTPScreen());
+                                if (formKey.currentState!.validate()) {
+                                  navigateTo(context, OTPScreen());
+
+                                }
+
                               } ,
                             ),
 
@@ -159,6 +181,7 @@ class RegisterScreen extends  StatelessWidget {
                               child: customTextButton(
                                   text: 'تسجيل الدخول',
                                   fontSize: 16.sp,
+                                  withUnderLine: true,
                                   textColor: Colors.white,
                                   onPressed: (){
                                     Navigator.pop(context);

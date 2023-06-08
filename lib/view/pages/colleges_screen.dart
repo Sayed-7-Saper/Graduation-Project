@@ -9,9 +9,9 @@ class CollegesScreen extends StatelessWidget {
    CollegesScreen({Key? key}) : super(key: key);
 
   List<CollegeModel> currentColleges =[
-    CollegeModel(name: 'كلية الفنون الجميلة', image: '$imagePath/images/college1.jpg'),
+    CollegeModel(name: 'كلية الفنون الجميلة', image: '$imagePath/images/college3.png'),
     CollegeModel(name: 'كلية التربية النوعية', image: '$imagePath/images/college2.png'),
-    CollegeModel(name: 'كلية التربية الفنية', image: '$imagePath/images/college3.png'),
+    CollegeModel(name: 'كلية التربية الفنية', image: '$imagePath/images/college1.jpg'),
   ];
 
   @override

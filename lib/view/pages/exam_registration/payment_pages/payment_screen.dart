@@ -68,7 +68,7 @@ class ExamRegistrationCostPage extends StatelessWidget {
                 Expanded(
                   child: customButton(
                     textColor: Colors.black,
-                    fontSize: 20,
+                    fontSize: 17,
                     elevation: 0.0,
                     color: cubit.isFawry ? AppColors.primaryColor : Colors.white,
                     text: 'فوري',
@@ -82,7 +82,7 @@ class ExamRegistrationCostPage extends StatelessWidget {
                 Expanded(
                   child: customButton(
                     textColor: Colors.black,
-                    fontSize: 20,
+                    fontSize: 17,
                     elevation: 0.0,
                     color: cubit.isFawry ? Colors.white : AppColors.primaryColor,
                     text: 'البطاقة الائتمانية', function: (){

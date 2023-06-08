@@ -40,11 +40,11 @@ class LoginScreen extends  StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         HeaderImage(imageName: 'logo', width: 171, ),
-                        SizedBox(height: 24.0.h,),
+                        SizedBox(height: 25.0.h,),
                         Container(
-                          padding: EdgeInsets.symmetric(vertical: 28.h, horizontal: 16.w),
+                          padding: EdgeInsets.symmetric(vertical: 28.h, horizontal: 17.w),
                           decoration: BoxDecoration(
-                            color: const Color(0xff9AB4C3),
+                            color: const Color(0xff9AB4C3),// Color(0xFF0F3447);
                             borderRadius: BorderRadius.circular(81),
                             boxShadow:[
                               BoxShadow(
@@ -140,7 +140,9 @@ class LoginScreen extends  StatelessWidget {
                                     fontSize: 18.sp,
 
                                     onPressed: (){
+
                                       navigateTo(context, ForgotPasswordScreen());
+
                                     },
                                   ),
                                 ],
@@ -152,12 +154,19 @@ class LoginScreen extends  StatelessWidget {
                                 text: 'تسجيل الدخول',
                                 color: Colors.white,
                                 elevation: 0.1,
+                                width: 100,
                                 fontSize: 17,
-                                textColor: Colors.black,
+                                textColor: Color(0xFF0F3447),//Colors.purple,
                                 height: getHeight(53, context),
                                 radius: 10,
                                 function: (){
-                                  navigateTo(context,  CollegesScreen());
+                                  ////////////////////// Fun ///////////////
+
+                                  if (formKey.currentState!.validate()) {
+                                    navigateTo(context,  CollegesScreen());
+
+                                  }
+                                  //////////////////////
                                 } ,
                               ),
 
@@ -165,6 +174,7 @@ class LoginScreen extends  StatelessWidget {
                                 alignment: Alignment.topRight,
                                 child: customTextButton(
                                     text: 'انشاء حساب',
+                                    withUnderLine: true,
                                     fontSize: 16.sp,
                                     textColor: Colors.white,
                                     onPressed: (){

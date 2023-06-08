@@ -20,7 +20,9 @@ class ProfileScreen extends StatelessWidget {
       appBar: DefaultAppBar(
         title: 'الصفحة الشخصية',
         withLeadingButton: true,
-        leadingFunction: (){},
+        leadingFunction: (){
+          Navigator.pop(context);
+        },
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0.w),
@@ -32,12 +34,12 @@ class ProfileScreen extends StatelessWidget {
                 backgroundColor: Colors.white,
                 child: CircleAvatar(
                   radius: getWidth(75, context).w,
-                  backgroundImage:  AssetImage('${imagePath}images/offer2.jpg',), //Image.asset("assets/images/Group 260.png",), //
+                  backgroundImage:  AssetImage('assets/images/user.png',),   // Image.asset("assets/images/Group 260.png",),//
                 ),
               ),
               SizedBox(height: 4.h,),
               Text(
-                'محمد ناصر',
+                'محمد ',
                 style: TextStyle(
                   fontFamily: fontFamily,
                   fontSize: 26.sp,

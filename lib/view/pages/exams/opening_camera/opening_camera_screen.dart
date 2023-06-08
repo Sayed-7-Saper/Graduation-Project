@@ -182,9 +182,9 @@ Future<dynamic> selectExamType({
                         child: customButton(
                             text: 'اختيار\nمن متعدد',
                             height: getHeight(111, context),
-                            radius: 6,
+                            radius: 9,
                             color: AppCubit.get(context).isMCQExamDone ? const Color(0xff788990) : AppColors.primaryColor,
-                            fontSize: 12.sp,
+                            fontSize: 13.sp,
                             textColor: Colors.black,
                             function: (){
                               if(!AppCubit.get(context).isMCQExamDone){
@@ -200,8 +200,8 @@ Future<dynamic> selectExamType({
                         child: customButton(
                             text: 'التصميم\nالزخرفي',
                             height: getHeight(111, context),
-                            radius: 6,
-                            fontSize: 12.sp,
+                            radius: 9,
+                            fontSize: 13.sp,
                             color: AppCubit.get(context).isDrawingExamExamDone ? const Color(0xff788990) : AppColors.primaryColor,
                             textColor: Colors.black,
                             function: (){
@@ -218,9 +218,9 @@ Future<dynamic> selectExamType({
                         child: customButton(
                             text: 'التعبير\nالفني',
                             height: getHeight(111, context),
-                            radius: 6,
+                            radius: 9,
                             color: AppCubit.get(context).isArtisticExamDone ? const Color(0xff788990) : AppColors.primaryColor,
-                            fontSize: 12.sp,
+                            fontSize: 13.sp,
                             textColor: Colors.black,
                             function: (){
                               if(!AppCubit.get(context).isArtisticExamDone){

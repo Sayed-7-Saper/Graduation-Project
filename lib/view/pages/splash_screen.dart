@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
 
-    Timer(const Duration(seconds: 1,milliseconds: 200), () {
+    Timer(const Duration(seconds: 1,milliseconds: 500), () {
       Navigator.pushAndRemoveUntil(context,
           MaterialPageRoute(builder: (context)=> LoginScreen()),
               (route) => false);

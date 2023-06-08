@@ -165,6 +165,38 @@ class AppCubit extends Cubit<AppStates>{
         'aswan',
       ],
     ),
+    QuestionModel(
+      question: 'ماهي عاصمة لبنان',
+      answers: [
+        'cairo',
+        'qalyubia',
+        'qena',
+        'aswan',
+      ],
+    ),
+    QuestionModel(
+      question: 'هل القاهرة عاصمة لبنان',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'هل القاهرة عاصمة لبنان',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'ماهي عاصمة مصر',
+      answers: [
+        'cairo',
+        'toukh',
+        'banha',
+        'aswan',
+      ],
+    ),
   ];
 
   /// list of answers of the MCQ exam
@@ -226,13 +258,13 @@ class AppCubit extends Cubit<AppStates>{
 
 
   late Timer timer ;
-  String remainingTime= '50:${DateTime.now().second}';
+  String remainingTime= '90:${DateTime.now().minute}';
   void startTimer({
     context,
     required int time,
   }){
-    timer= Timer.periodic(const Duration(seconds: 1), (timer) {
-      if (DateTime.now().second == 0) {
+    timer= Timer.periodic(const Duration(minutes: 1), (timer) {
+      if (DateTime.now().minute == 0) {
         if(time==0){
           timer.cancel();
           finishExamDialog(

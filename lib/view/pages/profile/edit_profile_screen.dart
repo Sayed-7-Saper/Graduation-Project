@@ -48,7 +48,7 @@ class EditProfileScreen extends StatelessWidget {
                         backgroundColor: Colors.white,
                         child: CircleAvatar(
                           radius: getWidth(75, context).w,
-                          backgroundImage: AssetImage('${imagePath}images/offer2.jpg',),
+                          backgroundImage: AssetImage('assets/images/user.png',),
                         ),
                       ),
                       Positioned(

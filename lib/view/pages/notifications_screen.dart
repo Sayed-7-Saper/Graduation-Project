@@ -18,7 +18,9 @@ class NotificationsScreen extends StatelessWidget {
       appBar: DefaultAppBar(
         title: 'الاشعارات',
         withLeadingButton: true,
-        leadingFunction: (){},
+        leadingFunction: (){
+          Navigator.pop(context);
+        },
       ),
 
       body: ConditionalBuilder(
