@@ -26,7 +26,7 @@ class EditProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: DefaultAppBar(
-        title: 'تعديل الصفحة',
+        title: 'تعديل ',
         withLeadingButton: true,
         leadingFunction: (){
           Navigator.pop(context);
@@ -91,9 +91,10 @@ class EditProfileScreen extends StatelessWidget {
                 horizontalPadding: horizontalPaddingOfTFF,
                 color: Colors.transparent,
                 validator: (value){
-
+                  if(value!.isEmpty) return 'Enter your Name';
+                  return null;
                 },
-                text: '',
+                text: 'محمد ناصر',
               ),
 
               SizedBox(height: 10.h,),
@@ -110,67 +111,16 @@ class EditProfileScreen extends StatelessWidget {
                 horizontalPadding: horizontalPaddingOfTFF,
                 color: Colors.transparent,
                 validator: (value){
-
-                },
-                text: '',
-              ),
-
-              SizedBox(height: 10.h,),
-              TFFHeader(text:  'كلمة السر'),
-              DefaultTextFormField(
-                context: context,
-                controller: passwordController,
-                hintColor: Colors.grey,
-                withBorder: true,
-                focusBorderColor: Colors.black,
-                inputType: TextInputType.text,
-                enabledBorderColor: Colors.black,
-                verticalPadding: verticalPaddingOfTFF,
-                horizontalPadding: horizontalPaddingOfTFF,
-                color: Colors.transparent,
-                validator: (value){
-                  if(value!.isEmpty) return 'ادخل اسم الطالب';
+                  if(value!.isEmpty) return 'Enter your Email';
                   return null;
+
                 },
-                text: '',
+                text: 'Mohamed@gmail.com',
               ),
 
-              SizedBox(height: 10.h,),
-              TFFHeader(text:  'الرقم القومي'),
-              DefaultTextFormField(
-                context: context,
-                controller: nationalIdController,
-                hintColor: Colors.grey,
-                withBorder: true,
-                focusBorderColor: Colors.black,
-                inputType: TextInputType.number,
-                enabledBorderColor: Colors.black,
-                verticalPadding: verticalPaddingOfTFF,
-                horizontalPadding: horizontalPaddingOfTFF,
-                color: Colors.transparent,
-                validator: (value){
-                  if(value!.isEmpty) return 'ادخل اسم الطالب';
-                  return null;
-                },
-                text: '',
-              ),
 
-              SizedBox(height: 10.h,),
-              TFFHeader(text:   'الشعبة'),
-              DefaultTextFormField(
-                context: context,
-                controller: departmentController,
-                hintColor: Colors.grey,
-                withBorder: true,
-                focusBorderColor: Colors.black,
-                inputType: TextInputType.text,
-                enabledBorderColor: Colors.black,
-                verticalPadding: verticalPaddingOfTFF,
-                horizontalPadding: horizontalPaddingOfTFF,
-                color: Colors.transparent,
-                validator: (value){},
-                text: '',
-              ),
+
+
               SizedBox(height: 26.h,),
 
               Align(
@@ -182,7 +132,9 @@ class EditProfileScreen extends StatelessWidget {
                   textColor: Colors.black.withOpacity(0.8),
                   color: Colors.white,
                   width: MediaQuery.of(context).size.width*0.4,
-                  function: (){},
+                  function: (){
+                    Navigator.pop(context);
+                  },
                 ),
               ),
               SizedBox(height: 36.h,),

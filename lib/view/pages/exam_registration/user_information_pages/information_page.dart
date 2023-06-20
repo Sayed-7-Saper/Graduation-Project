@@ -37,7 +37,10 @@ class UserInformation extends StatelessWidget {
           verticalPadding: verticalPaddingOfAuthenticationTFF,
           horizontalPadding: horizontalPaddingOfAuthenticationTFF,
           color: Colors.white,
-          validator: (value){},
+          validator: (value){
+            if(value!.isEmpty) return 'Enter your اسم الطالب';
+            return null;
+          },
           text: 'اسم الطالب',
         ),
 
@@ -51,7 +54,10 @@ class UserInformation extends StatelessWidget {
           controller: nationalIdController,
           verticalPadding: verticalPaddingOfAuthenticationTFF,
           horizontalPadding: horizontalPaddingOfAuthenticationTFF,
-          validator: (value){},
+          validator: (value){
+              if(value!.isEmpty) return 'Enter your رقم القومي';
+                return null;
+          },
           text: 'الرقم القومي',
         ),
 
@@ -65,9 +71,12 @@ class UserInformation extends StatelessWidget {
           controller: numberController,
           verticalPadding: verticalPaddingOfAuthenticationTFF,
           horizontalPadding: horizontalPaddingOfAuthenticationTFF,
-          suffixIconPressed: (){},
-          validator: (value){
+          suffixIconPressed: (){
 
+          },
+          validator: (value){
+              if(value!.isEmpty) return 'Enter your رقم الجلوس';
+              return null;
           },
           text: 'رقم الجلوس',
         ),
@@ -82,7 +91,10 @@ class UserInformation extends StatelessWidget {
           controller: departmentController,
           verticalPadding: verticalPaddingOfAuthenticationTFF,
           horizontalPadding: horizontalPaddingOfAuthenticationTFF,
-          validator: (value){},
+          validator: (value){
+            if(value!.isEmpty) return 'Enter your depertment';
+            return null;
+          },
           text: 'الشعبة',
         ),
 
@@ -133,6 +145,8 @@ class UserInformation extends StatelessWidget {
 
           },
           validator: (value){
+            if(value!.isEmpty) return 'Enter your phone';
+            return null;
 
           },
           text: 'رقم الهاتف',

@@ -49,7 +49,7 @@ class ProfileScreen extends StatelessWidget {
 
               SizedBox(height: 16.h,),
               customButton(
-                text: 'تعديل الصفحة',
+                text: 'تعديل ',
                 elevation: 0.0,
                 textColor: Colors.black,
                 color: Colors.white,
@@ -62,18 +62,20 @@ class ProfileScreen extends StatelessWidget {
               ),
 
               SizedBox(height: 16.h,),
-              SettingButton(
+              /*SettingButton(
                 text: 'الاعدادات',
                 icon: Icons.settings_outlined,
                 function: (){
 
                 },
-              ),
+              ),*/
 
               SettingButton(
                 text: 'تسجيل الخروج',
                 icon: Icons.logout_rounded,
-                function: (){},
+                function: (){
+                  Navigator.pop(context);
+                },
               ),
               SizedBox(height: 50.h,),
             ],

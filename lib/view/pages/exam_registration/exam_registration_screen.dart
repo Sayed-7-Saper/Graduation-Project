@@ -78,7 +78,10 @@ class ExamRegistrationScreen extends StatelessWidget {
                 function: (){
                   print(cubit.mcqRegistrationPageNumber);
                   if(cubit.mcqRegistrationPageNumber<2){
+                    if(formKey.currentState!.validate()) {
                     pageViewController.nextPage(duration: const Duration(milliseconds: 200), curve: Curves.bounceInOut);
+                       }
+
                   }else{
                     cubit.mcqRegistrationPageNumber=0;
                     Navigator.pop(context);
