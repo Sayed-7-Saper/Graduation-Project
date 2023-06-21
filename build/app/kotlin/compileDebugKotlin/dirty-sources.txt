@@ -1,1 +1,0 @@
-/home/sayed/Desktop/project-coolage/Artec/android/app/src/main/kotlin/com/example/artech/MainActivity.kt

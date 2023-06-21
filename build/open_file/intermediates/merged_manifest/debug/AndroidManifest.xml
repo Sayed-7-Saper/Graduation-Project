@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.crazecoder.openfile" >
 
-    <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16" />
+    <uses-sdk android:minSdkVersion="16" />
 
     <application>
         <provider

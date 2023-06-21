@@ -168,11 +168,11 @@ Future<dynamic> selectExamType({
                   },
                   child: CircleAvatar(
                     backgroundColor: Colors.red,
-                    radius: getWidth(20, context),
+                    radius: getWidth(17, context),
                     child: SvgPicture.asset('$imagePath/icons/x_icon.svg', color: Colors.white,),
                   ),
                 ),
-                SizedBox(height: 10.h,),
+                SizedBox(height: 9.h,),
                 BlocConsumer<AppCubit, AppStates>(
                   listener: (context, state){},
                   builder: (context, state)=>  Row(
@@ -189,13 +189,13 @@ Future<dynamic> selectExamType({
                             function: (){
                               if(!AppCubit.get(context).isMCQExamDone){
                                 navigateTo(context, MCQExamScreen());
-                                AppCubit.get(context).startTimer(context: context, time: 2);
+                                AppCubit.get(context).startTimer(context: context, time: 89);
                                 AppCubit.get(context).exitMCQExam();
                               }
                             }
                         ),
                       ),
-                      SizedBox(width: 8.w,),
+                      SizedBox(width: 7.w,),
                       Expanded(
                         child: customButton(
                             text: 'التصميم\nالزخرفي',
@@ -207,13 +207,13 @@ Future<dynamic> selectExamType({
                             function: (){
                               if(!AppCubit.get(context).isDrawingExamExamDone){
                                 navigateTo(context, DrawingAreaScreen());
-                                AppCubit.get(context).startTimer(context: context, time: 1);
+                                AppCubit.get(context).startTimer(context: context, time: 89);
                                 AppCubit.get(context).exitDrawingExam();
                               }
                             }
                         ),
                       ),
-                      SizedBox(width: 8.w,),
+                      SizedBox(width: 7.w,),
                       Expanded(
                         child: customButton(
                             text: 'التعبير\nالفني',
@@ -225,7 +225,7 @@ Future<dynamic> selectExamType({
                             function: (){
                               if(!AppCubit.get(context).isArtisticExamDone){
                                 navigateTo(context, const ArtisticExamScreen());
-                                AppCubit.get(context).startTimer(context: context, time: 1);
+                                AppCubit.get(context).startTimer(context: context, time: 89);
                                 AppCubit.get(context).exitArtisticExam();
                               }
                             }
@@ -234,7 +234,6 @@ Future<dynamic> selectExamType({
                     ],
                   ),
                 ),
-
                 SizedBox(height: 20.h,),
               ],
             ),

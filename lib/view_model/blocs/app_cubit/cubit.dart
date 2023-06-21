@@ -109,100 +109,240 @@ class AppCubit extends Cubit<AppStates>{
 
   List<QuestionModel> mcqQuestions=[
     QuestionModel(
-      question: 'ماهي عاصمة مصر',
-      answers: [
-        'cairo',
-        'toukh',
-        'banha',
-        'aswan',
-      ],
-    ),
-    QuestionModel(
-      question: 'ماهي عاصمة فلسطين',
-      answers: [
-        'cairo',
-        'qalyubia',
-        'qena',
-        'cairo',
-      ],
-    ),
-    QuestionModel(
-      question: 'ماهي عاصمة لبنان',
-      answers: [
-        'cairo',
-        'qalyubia',
-        'qena',
-        'aswan',
-      ],
-    ),
-    QuestionModel(
-      question: 'هل القاهرة عاصمة لبنان',
+      question: 'من اقسام الفنون التطبيقية اقسام التصميم الداخلي والخزف والغزل والنسيجوالتريكو والنحت',
       answers: [
         'صح',
         'خطأ',
       ],
     ),
     QuestionModel(
-      question: 'هل القاهرة عاصمة لبنان',
+      question: 'اعتقد المصريون القدماء بفكرة',
+      answers: [
+        'التجنيد',
+        'البعث والخلود',
+        'الحياه لابديه',
+        'التكيف',
+      ],
+    ),
+    QuestionModel(
+      question: 'ولد الفنان سيد درويش بحي',
+      answers: [
+        'الفيوم',
+        'الاقصر',
+        'كوم الدكه',
+
+      ],
+    ),
+    QuestionModel(
+      question: 'مخترع الهاتف',
+      answers: [
+        'جرام بل',
+        'توماس ايدسون',
+      ],
+    ),
+    QuestionModel(
+      question: 'فن الارابيسك هو فن خراطة',
+      answers: [
+        'الاخشاب',
+        'الرخام',
+      ],
+    ),
+    QuestionModel(
+      question: 'من اشكال الفن التشكيلي',
+      answers: [
+        'النحت',
+        'التشكيل',
+        'التصميم',
+        'الابداع',
+      ],
+    ),
+    QuestionModel(
+      question: 'يرتبط التزوق الفني بمعني ',
+      answers: [
+        'الادراك البصرى',
+        'الادراك الحسي',
+        'الادراك الذوقي',
+
+      ],
+    ),
+    QuestionModel(
+      question: 'حياة الانسان والعلاقات بين الافراد',
+      answers: [
+        'الوطن',
+        'المجتمع',
+        'البلد',
+      ],
+    ),
+    QuestionModel(
+      question: 'هفي عصر الدولة الحديثة عصر لايوجد فيه',
+      answers: [
+        'بناء الاهرامات',
+        'بناء الكباري',
+      ],
+    ),
+    QuestionModel(
+      question: 'من الالوان الثانوية',
+      answers: [
+        'البرتقالي',
+        'ابيض',
+        "وردي",
+      ],
+    ), QuestionModel(
+      question: 'هو قيمة الاضاءة والعتامة وهو المميز الواضح للشكل بالنسبة لم يحيط به',
+      answers: [
+        'اللون',
+        'الحجم',
+        'القيمه',
+        'الطول',
+      ],
+    ),
+    QuestionModel(
+      question: 'ينتج اللون الاسود من اكسيد',
+      answers: [
+        'الصوديوم',
+        'المنجنيز',
+        'البوتاسيوم',
+      ],
+    ),
+    QuestionModel(
+      question: 'الكوفي والديواني والفارسي والثلث انواع من',
+      answers: [
+        'الخطوط الايراني',
+        'الخطوط الفارسي',
+        'الخطوط العربية',
+        'الخطوط الانجليزي',
+      ],
+    ),
+    QuestionModel(
+      question: 'المدرسة التائثيرية هي المدرسي من الانطباعية',
       answers: [
         'صح',
         'خطأ',
       ],
     ),
     QuestionModel(
-      question: 'ماهي عاصمة فلسطين',
-      answers: [
-        'cairo',
-        'qalyubia',
-        'qena',
-        'cairo',
-      ],
-    ),
-    QuestionModel(
-      question: 'ماهي عاصمة لبنان',
-      answers: [
-        'cairo',
-        'qalyubia',
-        'qena',
-        'aswan',
-      ],
-    ),
-    QuestionModel(
-      question: 'ماهي عاصمة لبنان',
-      answers: [
-        'cairo',
-        'qalyubia',
-        'qena',
-        'aswan',
-      ],
-    ),
-    QuestionModel(
-      question: 'هل القاهرة عاصمة لبنان',
+      question: 'من المعادن المرنة في التشكيل بالطرق :الالومنيوم',
       answers: [
         'صح',
         'خطأ',
       ],
     ),
     QuestionModel(
-      question: 'هل القاهرة عاصمة لبنان',
+      question: 'هي مدرسة تعتمد علي العاطفة والاحساس ',
+      answers: [
+        ' المدرسة الحديثه',
+        ' المدرسة الرومانسية',
+        ' المدرسة القديمه',
+
+      ],
+    ),
+    QuestionModel(
+      question: 'استخدمت الكتابات الهيروغليفية علي جدران المعابد والمقابر في مصر القديمة ',
+      answers: [
+        'لتسجيل الظرف',
+        'لتسجيل الاحداث',
+        'لتسجيل الاماكن',
+      ],
+    ),
+    QuestionModel(
+      question: 'للمحافظة علي التمثال المصري من الكسر تكون الايدي',
+      answers: [
+        'ملتصقة برأس ',
+        'ملتصقة بالجسم',
+
+      ],
+    ),
+    QuestionModel(
+      question: 'فنان تلقائي لم يتلقي تعليميا اكاديميا في الفن :فطرى',
       answers: [
         'صح',
         'خطأ',
       ],
     ),
     QuestionModel(
-      question: 'ماهي عاصمة مصر',
+      question: 'يعد الرمل المكون الاساسي في صناعة الزجاج',
       answers: [
-        'cairo',
-        'toukh',
-        'banha',
-        'aswan',
+        'صح',
+        'خطأ',
       ],
     ),
+    QuestionModel(
+      question: 'من انواع الجلود الطبيعية السميكة جلد',
+      answers: [
+        'الاسماك',
+        'البقر',
+        'الماعز',
+        'الخيل',
+      ],
+    ),
+    QuestionModel(
+      question: 'اللون البرتقالي من الالوان الثانوية',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'بني الجامع الازهر الشريف في عهد الايوبين',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'تعتبر البيوت النوبية من اشكال الفن الشعبي',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'يعتبر الفن الاسلامي فن نفعي لانه مرتبط باحتياجات الانسان',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'اتسمت التماثيل في العصر الحجري بتناسق النسب الجثمانية',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'فن صناعة الحشوات والتطعيم والارابيسك من اهم الصناعات الخشبية الاسلامية',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'التكعيبة هي مدرسة تعتمد علي العاطفة والاحاسيس',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'الرقص من اشكال الفن التشكيلي',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+    QuestionModel(
+      question: 'تكون اللون الاخضر من خلط الالوان الاصفر مع اللون الازرق',
+      answers: [
+        'صح',
+        'خطأ',
+      ],
+    ),
+
   ];
 
   /// list of answers of the MCQ exam
-  List<int> answerNumbers=[0,1,3,1,0,1,0];
+  List<int> answerNumbers=[0,1,0,1,0,1,0,1,1,0,1,0,0,1,0,0,1,1,1,0,1,0,1,2,0,1,0,1,1,0,];
 
   /// when the user select an answer this method is called and update the answer.
   void changeAnswer(int index, int answerNumber){
@@ -265,7 +405,7 @@ class AppCubit extends Cubit<AppStates>{
     context,
     required int time,
   }){
-    timer= Timer.periodic(const Duration(minutes: 1), (timer) {
+    timer= Timer.periodic(const Duration(seconds: 1), (timer) {
       if (DateTime.now().minute == 0) {
         if(time==0){
           timer.cancel();

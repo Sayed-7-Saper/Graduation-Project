@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/res/merged/debug/values-uk/values-uk.xml",
+            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/merged_res/debug/values-uk/values-uk.xml",
             "map": [
                 {
-                    "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/values-uk/values-uk.xml",
+                    "source": "/home/sayed/.gradle/caches/transforms-3/f19bd58f51afda9e25c955b9a38cad2a/transformed/core-1.6.0/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
             "map": [
                 {
-                    "source": "/home/sayed/.gradle/caches/transforms-3/9681c62924a85e16cb4ce4fe2ebeb2ee/transformed/core-1.6.0/res/values-uk/values-uk.xml",
+                    "source": "/home/sayed/.gradle/caches/transforms-3/f19bd58f51afda9e25c955b9a38cad2a/transformed/core-1.6.0/res/values-uk/values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

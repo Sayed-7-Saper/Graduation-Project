@@ -86,7 +86,7 @@ class DecorativeDesignExamScreen extends StatelessWidget {
                   withBorder: true,
                   width: getWidth(232, context),
                   function: (){
-                    navigateTo(context, const DrawingAreaScreen());
+                    navigateTo(context,  DrawingAreaScreen());
                   },
                 ),
 

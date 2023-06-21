@@ -16,17 +16,17 @@ class MCQExamBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const SizedBox(height: 38.0,),
+        const SizedBox(height: 30.0,),
         Container(
           color: Colors.white,
-          height: getHeight(83, context),
+          height: getHeight(185, context),
           width: double.infinity,
           alignment: AlignmentDirectional.center,
           child: Text(
             question.question,
             style: TextStyle(
               fontWeight: FontWeight.w600,
-              fontSize: 26.sp,
+              fontSize: 23.sp,
               fontFamily: fontFamily,
             ),
           ),

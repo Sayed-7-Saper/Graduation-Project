@@ -38,6 +38,32 @@ class MCQExamScreen extends  StatelessWidget {
       MCQExamBody(question: cubit.mcqQuestions[4], questionIndex: 4),
       MCQExamBody(question: cubit.mcqQuestions[5], questionIndex: 5),
       MCQExamBody(question: cubit.mcqQuestions[6], questionIndex: 6),
+      MCQExamBody(question: cubit.mcqQuestions[7], questionIndex: 7),
+      MCQExamBody(question: cubit.mcqQuestions[8], questionIndex: 8),
+      MCQExamBody(question: cubit.mcqQuestions[9], questionIndex: 9),
+      MCQExamBody(question: cubit.mcqQuestions[10], questionIndex: 10),
+      MCQExamBody(question: cubit.mcqQuestions[11], questionIndex: 11),
+      MCQExamBody(question: cubit.mcqQuestions[12], questionIndex: 12),
+      MCQExamBody(question: cubit.mcqQuestions[13], questionIndex: 13),
+      MCQExamBody(question: cubit.mcqQuestions[14], questionIndex: 14),
+      MCQExamBody(question: cubit.mcqQuestions[15], questionIndex: 15),
+      MCQExamBody(question: cubit.mcqQuestions[16], questionIndex: 16),
+      MCQExamBody(question: cubit.mcqQuestions[17], questionIndex: 17),
+      MCQExamBody(question: cubit.mcqQuestions[18], questionIndex: 18),
+      MCQExamBody(question: cubit.mcqQuestions[19], questionIndex: 19),
+      MCQExamBody(question: cubit.mcqQuestions[20], questionIndex: 20),
+      MCQExamBody(question: cubit.mcqQuestions[21], questionIndex: 21),
+      MCQExamBody(question: cubit.mcqQuestions[22], questionIndex: 22),
+      MCQExamBody(question: cubit.mcqQuestions[23], questionIndex: 23),
+      MCQExamBody(question: cubit.mcqQuestions[24], questionIndex: 24),
+      MCQExamBody(question: cubit.mcqQuestions[25], questionIndex: 25),
+      MCQExamBody(question: cubit.mcqQuestions[26], questionIndex: 26),
+      MCQExamBody(question: cubit.mcqQuestions[27], questionIndex: 27),
+      MCQExamBody(question: cubit.mcqQuestions[28], questionIndex: 28),
+      MCQExamBody(question: cubit.mcqQuestions[29], questionIndex: 29),
+      //MCQExamBody(question: cubit.mcqQuestions[30], questionIndex: 30),
+
+
     ];
 
     return BlocConsumer<AppCubit, AppStates>(
@@ -69,11 +95,11 @@ class MCQExamScreen extends  StatelessWidget {
 
                   /// pagination
                   SizedBox(
-                    height: getWidth(44, context),
+                    height: getWidth(40, context),
                     width: double.infinity,
                     child: Center(
                       child: ListView.separated(
-                        physics: const NeverScrollableScrollPhysics(),
+                        physics: const NeverScrollableScrollPhysics(),////////////////////
                         shrinkWrap: true,
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {

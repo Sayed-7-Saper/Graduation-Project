@@ -4,28 +4,28 @@
 4    package="com.crazecoder.openfile" >
 5
 6    <uses-sdk android:minSdkVersion="16" />
-6-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml
+6-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml
 7
 8    <application>
-8-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:5:5-17:19
+8-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:5:5-17:19
 9        <provider
-9-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:6:9-16:20
+9-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:6:9-16:20
 10            android:name="com.crazecoder.openfile.FileProvider"
-10-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:7:13-64
+10-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:7:13-64
 11            android:authorities="${applicationId}.fileProvider.com.crazecoder.openfile"
-11-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:8:13-88
+11-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:8:13-88
 12            android:exported="false"
-12-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:9:13-37
+12-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:9:13-37
 13            android:grantUriPermissions="true"
-13-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:10:13-47
+13-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:10:13-47
 14            tools:replace="android:authorities" >
-14-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:11:13-48
+14-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:11:13-48
 15            <meta-data
-15-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:12:13-15:20
+15-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:12:13-15:20
 16                android:name="android.support.FILE_PROVIDER_PATHS"
-16-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:13:17-67
+16-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:13:17-67
 17                android:resource="@xml/filepaths" />
-17-->/home/sayed/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/open_file-3.3.1/android/src/main/AndroidManifest.xml:14:17-50
+17-->/home/sayed/.pub-cache/hosted/pub.dev/open_file-3.3.2/android/src/main/AndroidManifest.xml:14:17-50
 18        </provider>
 19    </application>
 20

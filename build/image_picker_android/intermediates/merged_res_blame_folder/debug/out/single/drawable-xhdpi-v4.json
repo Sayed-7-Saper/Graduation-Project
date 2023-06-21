@@ -1,22 +1,46 @@
 [
     {
-        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
-        "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
-        "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_decline_low.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_decline_low.png"
     },
     {
-        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
-        "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_answer_low.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_answer_low.png"
     },
     {
-        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_answer_video.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_answer.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_answer_video_low.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/ic_call_decline.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     }
 ]

@@ -163,6 +163,7 @@ class LoginScreen extends  StatelessWidget {
                                   ////////////////////// Fun ///////////////
 
                                   if (formKey.currentState!.validate()) {
+
                                     navigateTo(context,  CollegesScreen());
 
                                   }

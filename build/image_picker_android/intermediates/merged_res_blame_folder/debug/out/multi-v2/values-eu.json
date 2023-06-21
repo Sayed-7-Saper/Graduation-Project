@@ -1,31 +1,31 @@
 {
     "logs": [
         {
-            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/res/merged/debug/values-eu/values-eu.xml",
+            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/values-eu/values-eu.xml",
+                    "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/values-eu/values-eu.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,563,666,784",
+                        "endColumns": "97,102,99,102,103,102,117,100",
+                        "endOffsets": "148,251,351,454,558,661,779,880"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_res/debug/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "/home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/res/values-eu/values-eu.xml",
+                    "source": "/home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/res/values-eu/values-eu.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,563,666,784",
+                        "endColumns": "97,102,99,102,103,102,117,100",
+                        "endOffsets": "148,251,351,454,558,661,779,880"
                     }
                 }
             ]

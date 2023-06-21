@@ -6,7 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="33" />
 10    <!--
 11         The INTERNET permission is required for development. Specifically,
 12         the Flutter tool needs it to communicate with the running application
@@ -16,27 +16,27 @@
 15-->/home/sayed/Desktop/project-coolage/Artec/android/app/src/debug/AndroidManifest.xml:7:5-66
 15-->/home/sayed/Desktop/project-coolage/Artec/android/app/src/debug/AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
-16-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+16-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-65
+16-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-62
 17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-17-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
-17-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+17-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-71
+17-->[:camera_android] /home/sayed/Desktop/project-coolage/Artec/build/camera_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-68
 18
 19    <permission
-19-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 20        android:name="com.example.artech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-20-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
 21        android:protectionLevel="signature" />
-21-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
 22
 23    <uses-permission android:name="com.example.artech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-23-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-23-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 24
 25    <application
 26        android:name="android.app.Application"
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.9.0] /home/sayed/.gradle/caches/transforms-3/d7432842824bbe5b772d7ffeda938565/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27-->[androidx.core:core:1.10.1] /home/sayed/.gradle/caches/transforms-3/7c7b2afa326fe2c9c43a5642bc416b5e/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
 30        android:label="artech" >
@@ -74,106 +74,117 @@
 62            android:value="2" />
 63
 64        <provider
-64-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+64-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
 65            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-65-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+65-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
 66            android:authorities="com.example.artech.flutter.image_provider"
-66-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+66-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
 67            android:exported="false"
-67-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+67-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
 68            android:grantUriPermissions="true" >
-68-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+68-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
 69            <meta-data
-69-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+69-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
 70                android:name="android.support.FILE_PROVIDER_PATHS"
-70-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+70-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 71                android:resource="@xml/flutter_image_picker_file_paths" />
-71-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+71-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
 72        </provider>
 73        <provider
-73-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-18:20
+73-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-18:20
 74            android:name="com.crazecoder.openfile.FileProvider"
-74-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-64
+74-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
 75            android:authorities="com.example.artech.fileProvider.com.crazecoder.openfile"
-75-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-88
+75-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-88
 76            android:exported="false"
-76-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-37
+76-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 77            android:grantUriPermissions="true" >
-77-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-47
+77-->[:open_file] /home/sayed/Desktop/project-coolage/Artec/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
 78            <meta-data
-78-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+78-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
 79                android:name="android.support.FILE_PROVIDER_PATHS"
-79-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+79-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
 80                android:resource="@xml/filepaths" />
-80-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+80-->[:image_picker_android] /home/sayed/Desktop/project-coolage/Artec/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
 81        </provider>
-82
-83        <uses-library
-83-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-84            android:name="androidx.window.extensions"
-84-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-85            android:required="false" />
-85-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-86        <uses-library
-86-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-87            android:name="androidx.window.sidecar"
-87-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-88            android:required="false" />
-88-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/a53b500a4e0078bdd238b3ea9f86e4b7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-89
-90        <provider
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-91            android:name="androidx.startup.InitializationProvider"
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
-92            android:authorities="com.example.artech.androidx-startup"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
-93            android:exported="false" >
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
-94            <meta-data
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-96                android:value="androidx.startup" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-97        </provider>
-98
-99        <receiver
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-100            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-101            android:directBootAware="false"
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-102            android:enabled="true"
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-103            android:exported="true"
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-104            android:permission="android.permission.DUMP" >
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-105            <intent-filter>
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-106                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-107            </intent-filter>
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-109                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-110            </intent-filter>
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-112                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-113            </intent-filter>
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-115                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/ae107064f3bceab1ae4a624a014a3314/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-116            </intent-filter>
-117        </receiver>
-118    </application>
-119
-120</manifest>
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.artech.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] /home/sayed/.gradle/caches/transforms-3/e062d95c208ac073d2de5096e5ba9812/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sayed/.gradle/caches/transforms-3/eee0779474b03c5670804ec96af01282/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sayed/.gradle/caches/transforms-3/eee0779474b03c5670804ec96af01282/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sayed/.gradle/caches/transforms-3/eee0779474b03c5670804ec96af01282/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <uses-library
+97-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+98            android:name="androidx.window.extensions"
+98-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+101            android:name="androidx.window.sidecar"
+101-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] /home/sayed/.gradle/caches/transforms-3/4269616a129695fdb19a86abf01a34c6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+103
+104        <receiver
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+105            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+106            android:directBootAware="false"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+107            android:enabled="true"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+108            android:exported="true"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+109            android:permission="android.permission.DUMP" >
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+111                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+114                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+117                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+120                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sayed/.gradle/caches/transforms-3/3df159e1eba95e990f59cd230eb708e2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>
